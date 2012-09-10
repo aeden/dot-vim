@@ -3,6 +3,7 @@
 rm -Rf bundle
 mkdir bundle
 cd bundle
+git clone https://github.com/tmhedberg/matchit.git
 git clone https://github.com/vim-scripts/VimClojure.git
 git clone git://git.wincent.com/command-t.git
 git clone https://github.com/sjbach/lusty.git
