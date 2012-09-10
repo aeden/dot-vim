@@ -1,8 +1,12 @@
 #!/bin/sh
 
+echo "Clearing existing bundles\n\n"
 rm -Rf bundle
 mkdir bundle
 cd bundle
+
+echo "\nCloning repos\n\n"
+
 git clone https://github.com/tmhedberg/matchit.git
 git clone https://github.com/vim-scripts/VimClojure.git
 git clone git://git.wincent.com/command-t.git
@@ -18,14 +22,14 @@ git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/vim-ruby/vim-ruby.git
 git clone https://github.com/tpope/vim-vividchalk.git
 
+echo "\nRepos cloned\n\n"
+
 echo "
 Please execute the following:
 
 cd bundle/command-t
 rvm use system
 rake make
-cd ../..
-
-"
+cd ../..\n\n"
 
 cd ..
