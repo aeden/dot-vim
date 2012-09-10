@@ -17,4 +17,15 @@ git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/vim-ruby/vim-ruby.git
 git clone https://github.com/tpope/vim-vividchalk.git
+
+echo "
+Please execute the following:
+
+cd bundle/command-t
+rvm use system
+rake make
+cd ../..
+
+"
+
 cd ..
