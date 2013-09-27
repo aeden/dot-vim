@@ -20,6 +20,7 @@ git clone https://github.com/tpope/vim-endwise.git
 git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/vim-ruby/vim-ruby.git
+git clone https://github.com/jnwhiteh/vim-golang
 git clone https://github.com/tpope/vim-vividchalk.git
 
 echo "\nRepos cloned\n\n"
