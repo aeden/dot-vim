@@ -1,3 +1,3 @@
 ## Install
 
-Run `bunder.sh`
+Run `bundler.sh`

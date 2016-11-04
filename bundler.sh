@@ -25,6 +25,7 @@ git clone https://github.com/fatih/vim-go.git
 git clone https://github.com/tpope/vim-vividchalk.git
 git clone https://github.com/kchmck/vim-coffee-script.git
 git clone https://github.com/elixir-lang/vim-elixir.git
+git clone https://github.com/rust-lang/rust.vim.git
 
 echo "\nRepos cloned\n\n"
 
