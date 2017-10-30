@@ -17,6 +17,7 @@ git clone https://github.com/dickeyxxx/status.vim.git
 git clone https://github.com/scrooloose/syntastic.git
 git clone https://github.com/tpope/vim-endwise.git
 git clone https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/tpope/vim-rhubarb.git
 git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/vim-ruby/vim-ruby.git
 git clone https://github.com/fatih/vim-go.git
