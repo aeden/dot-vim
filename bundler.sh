@@ -1,5 +1,8 @@
 #!/bin/sh
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 echo "Clearing existing bundles\n\n"
 rm -Rf bundle
 mkdir bundle
@@ -25,6 +28,7 @@ git clone https://github.com/kchmck/vim-coffee-script.git
 git clone https://github.com/vim-scripts/VimClojure.git
 git clone https://github.com/elixir-lang/vim-elixir.git
 git clone https://github.com/rust-lang/rust.vim.git
+git clone https://github.com/sovetnik/vim-hanami.git
 
 echo "\nRepos cloned\n\n"
 
